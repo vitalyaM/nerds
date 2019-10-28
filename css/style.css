@@ -149,12 +149,12 @@ a {
 	margin-right: 202px;
 }
 
-.main-header-logo:hover,
-.main-header-logo:focus {
+.main-header-logo[href]:hover,
+.main-header-logo[href]:focus {
 	opacity: 0.8;
 }
 
-.main-header-logo:active {
+.main-header-logo[href]:active {
 	opacity: 0.3;
 }
 

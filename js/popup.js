@@ -19,7 +19,7 @@
 		});
 
 		form.addEventListener("submit", function (evt) {
-			if (!name.value || !email.value || !text.value) {
+			if (!name.value || !email.value) {
 				evt.preventDefault();
 				popup.classList.remove("modal-error");
 				popup.offsetWidth = popup.offsetWidth;
