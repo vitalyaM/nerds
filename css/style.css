@@ -602,6 +602,7 @@ a {
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	-ms-align-items: center;
 	align-items: center;
 
 	margin: 0;
